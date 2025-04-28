@@ -4,74 +4,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Crypto is an MMO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #fafafa; color: #222; }
-    h1, h2, h3 { color: #111; }
-    img { max-width: 100%; height: auto; margin: 20px 0; }
-    .section { margin-bottom: 40px; }
-    .center { text-align: center; }
+    body { 
+      font-family: 'Inter', sans-serif; 
+      margin: 0; 
+      background: #fafafa; 
+      color: #222; 
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h1, h2, h3 { 
+      color: #111; 
+    }
+    img { 
+      max-width: 100%; 
+      height: auto; 
+      margin: 20px 0; 
+      border-radius: 4px;
+    }
+    .section { 
+      margin-bottom: 40px; 
+    }
+    .center { 
+      text-align: center; 
+    }
   </style>
 </head>
 <body>
 
-  <h1>Crypto is an MMO, which type of player are you? (QUIZ)</h1>
+  <div class="container">
 
-  <p>I have often wondered,</p>
-  <p>Why are some of the biggest names in the crypto space bad actors? What force propels scammers into the zeitgeist?</p>
-  <p>A game design framework from the 90's has helped me understand.</p>
+    <h1>Crypto is an MMO, which type of player are you? (QUIZ)</h1>
 
-  <img src="images/mmo-ecosystem.png" alt="MMO Ecosystem">
-  <p class="center">A bustling online ecosystem</p>
+    <p>I have often wondered,</p>
+    <p>Why are some of the biggest names in the crypto space bad actors? What force propels scammers into the zeitgeist?</p>
+    <p>A game design framework from the 90's has helped me understand.</p>
 
-  <h2>Crypto is the biggest and most entertaining MMO ever created.</h2>
+    <img src="images/mmo-ecosystem.png" alt="MMO Ecosystem">
+    <p class="center">A bustling online ecosystem</p>
 
-  <p>Millions of players are trading, yapping, spreading FUD, and chasing alpha, all interacting across continents in a shared digital space.</p>
+    <h2>Crypto is the biggest and most entertaining MMO ever created.</h2>
 
-  <p>In 1996, Richard Bartle created a framework for understanding players in multiplayer games. It is called Bartle’s taxonomy.</p>
+    <p>Millions of players are trading, yapping, spreading FUD, and chasing alpha, all interacting across continents in a shared digital space.</p>
 
-  <h3>Here it is:</h3>
-  <img src="images/bartle-taxonomy.png" alt="Bartle's Taxonomy Diagram">
+    <p>In 1996, Richard Bartle created a framework for understanding players in multiplayer games. It is called Bartle’s taxonomy.</p>
 
-  <div class="section">
-    <h2>Achievers - Act on the world</h2>
-    <p>Achievers in Web3 are varied, but their primary measure of success is wealth. They grind, optimize, and play the game to maximize returns. They are critical because they represent liquidity. Without them, there is no money moving through the system.</p>
-  </div>
+    <h3>Here it is:</h3>
+    <img src="images/bartle-taxonomy.png" alt="Bartle's Taxonomy Diagram">
 
-  <div class="section">
-    <h2>Explorers - Interact with the world</h2>
-    <p>Explorers go deep. They read whitepapers, study documentation, and understand technical layers most ignore. They can explain nuanced protocol differences and operate for the love of the game, not just for financial gain.</p>
-  </div>
+    <div class="section">
+      <h2>Achievers - Act on the world</h2>
+      <p>Achievers in Web3 are varied, but their primary measure of success is wealth. They grind, optimize, and play the game to maximize returns. They are critical because they represent liquidity. Without them, there is no money moving through the system.</p>
+    </div>
 
-  <div class="section">
-    <h2>Socializers - Interact with players</h2>
-    <p>Socializers care more about their social metrics than money. They are the communication layer of the ecosystem, distributing valuable information uncovered by explorers.</p>
-  </div>
+    <div class="section">
+      <h2>Explorers - Interact with the world</h2>
+      <p>Explorers go deep. They read whitepapers, study documentation, and understand technical layers most ignore. They can explain nuanced protocol differences and operate for the love of the game, not just for financial gain.</p>
+    </div>
 
-  <div class="section">
-    <h2>Killers - Act on players</h2>
-    <p>Killers are extractors, PVP traders, and sometimes founders. They create drama and movement in crypto, ensuring it never becomes predictable or stagnant.</p>
-  </div>
+    <div class="section">
+      <h2>Socializers - Interact with players</h2>
+      <p>Socializers care more about their social metrics than money. They are the communication layer of the ecosystem, distributing valuable information uncovered by explorers.</p>
+    </div>
 
-  <h2>Ok cool so what?</h2>
-  <p>You can use this framework to evaluate online ecosystems. Here is a brief overview of Solana and Ethereum through this lens.</p>
+    <div class="section">
+      <h2>Killers - Act on players</h2>
+      <p>Killers are extractors, PVP traders, and sometimes founders. They create drama and movement in crypto, ensuring it never becomes predictable or stagnant.</p>
+    </div>
 
-  <div class="section">
-    <h2>Solana</h2>
-    <p>Solana is where most of the achievers have been this cycle. This attracted killers and socializers. The relatively lower number of explorers compared to Ethereum contributed to the success of scammers and extractive behavior in the ecosystem.</p>
-    <img src="images/solana-chart.png" alt="Solana Radar Chart">
-  </div>
+    <h2>Ok cool so what?</h2>
+    <p>You can use this framework to evaluate online ecosystems. Here is a brief overview of Solana and Ethereum through this lens.</p>
 
-  <div class="section">
-    <h2>Ethereum</h2>
-    <p>Although Ethereum continues to be talked about and discussed, there is a distinct lack of speculative energy compared to previous cycles. It has increasingly become a glorified social club focused on the philosophy of blockchain ethics.</p>
-    <img src="images/ethereum-chart.png" alt="Ethereum Radar Chart">
-  </div>
+    <div class="section">
+      <h2>Solana</h2>
+      <p>Solana is where most of the achievers have been this cycle. This attracted killers and socializers. The relatively lower number of explorers compared to Ethereum contributed to the success of scammers and extractive behavior in the ecosystem.</p>
+      <img src="images/solana-chart.png" alt="Solana Radar Chart">
+    </div>
 
-  <div class="section">
-    <h2>Conclusion</h2>
-    <p>Crypto is dangerous and full of killers; that's what makes it fun. The solution is not to get rid of them, but to breed more explorers. This is just a basic overview—there is a more complicated taxonomy I will dive into in a second article.</p>
-    <p>Overall, killers are important for excitement, but too many make things boring. We must acknowledge their role and build better systems for all player types.</p>
-  </div>
+    <div class="section">
+      <h2>Ethereum</h2>
+      <p>Although Ethereum continues to be talked about and discussed, there is a distinct lack of speculative energy compared to previous cycles. It has increasingly become a glorified social club focused on the philosophy of blockchain ethics.</p>
+      <img src="images/ethereum-chart.png" alt="Ethereum Radar Chart">
+    </div>
+
+    <div class="section">
+      <h2>Conclusion</h2>
+      <p>Crypto is dangerous and full of killers; that's what makes it fun. The solution is not to get rid of them, but to breed more explorers. This is just a basic overview—there is a more complicated taxonomy I will dive into in a second article.</p>
+      <p>Overall, killers are important for excitement, but too many make things boring. We must acknowledge their role and build better systems for all player types.</p>
+    </div>
+
+  </div> <!-- End container -->
 
 </body>
 </html>
